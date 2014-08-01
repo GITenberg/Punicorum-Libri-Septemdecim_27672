@@ -1,0 +1,194 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+sup {font-size: 75%; line-height: .1em;}
+
+em {font-style: normal;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em;}
+hr.mid {width: 50%;}
+hr.small {width: 33%;}
+hr.tiny {width: 20%;}
+hr.chapter {margin-top: 4em;}
+hr.section {margin-top: 2em;}
+
+
+/* anchors */
+
+a {text-decoration: none;}
+
+a.tag {padding-left: .25em; font-size: 80%;}
+div.text a {color: inherit; background-color: inherit;
+border-bottom: 1px solid #BBB;} /* links to variae */
+
+p.notes a, div.variae a {color: #009; background-color: inherit;
+font-weight: bold;}
+p.notes a.crossref, div.variae a.crossref {font-weight: normal;}
+
+table.toc a:visited {color: #003; background-color: inherit;}
+table.toc a:link {color: #009; background-color: inherit;}
+
+a.missing {font-style: italic;}
+
+
+/* headers */
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5;
+margin-top: .5em; margin-bottom: .5em;}
+
+h1 {font-size: 250%;}
+h2 {font-size: 200%;}
+h3 {font-size: 150%;}
+div.diatribe h3 {margin-top: 1em;}
+h4 {font-size: 120%;}
+div.index h4 {font-weight: bold; margin-top: 1em; text-align: left; margin-left: 33%;}
+
+h5 {font-size: 100%; margin-left: 2em; margin-right: 2em;}
+h5.chapter {margin-top: 4em;}
+h5.variae {font-size: 105%; font-variant: small-caps;}
+div.appendix h5 {margin-top: 1em;}
+h5.ital, h5 i {font-size: 105%; line-height: 1.2em;}
+div.appendix h5 + h5 {margin-top: .5em;}
+div.endnote h5 {font-weight: bold; margin-top: 1em;}
+h6 {font-size: 85%;}
+
+
+p, blockquote {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+blockquote {margin-left: 1em; margin-right: 1em; font-size: 92%;}
+
+p.illustration {text-align: center; margin-top: 1em; margin-bottom: 1em;}
+p.hanging {margin-left: 1em; text-indent: -1em;}
+p.right {text-align: right; margin-right: 20%;}
+p.center {text-align: center;}
+
+p.inset, div.inset {margin-left: 1em; margin-right: 2em;}
+
+
+/* footnotes */
+
+div.footnote {font-size: 95%; margin: 1em 2em 2em;}
+
+
+/* argument */
+
+div.argument {margin-top:1em; margin-bottom: 2em;}
+div.argument p {margin-top: 0em; margin-left: 1em; text-indent: -1em;}
+
+/* main text and appendix */
+
+div.text {margin-top: .75em; margin-bottom: .5em;}
+
+div.text p {margin-top: 0em; margin-left: 4em; text-indent: -2em;
+max-width: 25em;}
+div.text p.indent {text-indent: -1em; margin-top: 1em;}
+div.text p.halfline {text-indent: 4em;}
+
+/* notes */
+
+div.notes {margin: 2em; font-size: 92%;}
+/* longer note sections as in lib VI, X, XVII */
+p.notes {font-size: 95%;}
+div.appendix p.notes {margin-left: 1em; margin-right: 1em;}
+
+/* poetry in notes */
+
+div.verse {margin: .25em 1em .5em; font-size: 92%;}
+div.verse p {margin-left: 1em; text-indent: -1em; margin-top: 0em;
+line-height: normal;}
+div.verse p.inset {margin-left: 3em;}
+
+div.appendix div.verse {margin: .5em 4em; font-size: 95%;}
+div.appendix div.verse p.inset {margin-left: 2em;}
+div.appendix div.verse p.inset2 {margin-left: 3em;}
+
+div.verse p.right {font-style: normal; margin-top: 0; margin-right: 33%;}
+
+p.verse {margin-left: 2em; text-indent: -1em; margin-top: .25em;
+margin-bottom: .5em;}
+
+/* variae */
+
+div.variae p {font-size: 92%; margin-left: 2em; margin-right: 2em;}
+
+/* general index */
+
+div.index p {margin-left: 3em; text-indent: -3em; font-size: 92%;}
+div.index p.inset {text-indent: -2em; margin-top: 0;}
+div.index p.inset2 {text-indent: -1em; margin-top: 0;}
+div.index p.crossref {margin-top: 0; margin-left: 0; text-indent: 0;}
+
+div.index p.mynote {text-indent: 0; margin-left: 2em;}
+
+/* diatribe */
+
+div.diatribe p {font-size: 96%; margin-left: 2em; text-indent: -2em;}
+div.sectio {margin-top: .5em;}
+div.diatribe div.sectio p {margin-top: 0;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em;}
+
+td {vertical-align: top; padding: .1em .5em; font-size: 92%;}
+
+td.number {text-align: right;}
+td.inset {padding-left: 2em;}
+td.center {text-align: center;}
+
+table p {margin-top: 0em; margin-left: 1.5em; text-indent: -1.5em;
+line-height: normal;}
+
+table.comm {margin-left: 1em;}
+table.comm p {margin-left: 4em; text-indent: -4em;}
+
+table.contents {border: 3px ridge #BBB; margin-top: 2em; margin-bottom: 2em; border-spacing: 2em .5em; font-family: sans-serif; font-size: 92%;}
+table.contents td {padding: 0; line-height: 1.5;}
+table.contents p {margin-top: .25em;}
+
+
+/* inline formatting */
+
+span.greek {border-bottom: 1px dotted #666;}
+
+.smallcaps {font-variant: small-caps; font-style: normal;}
+.smallroman {font-size: 75%;}
+
+.extended {letter-spacing: 0.2em;}
+.ital {font-style: italic;}
+
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+
+span.linenum {position: absolute; font-weight: normal;
+font-style: normal; text-align: right; text-indent: 0em;
+color: #333; background-color: inherit; right: 8%; font-size: 80%;}
+span.linenum.indent {padding-top: 1.25em;}
+
+span.pagenum {position: absolute; font-weight: normal;
+font-style: normal; text-align: left; text-indent: 0em;
+color: #666; background-color: inherit; left: 3%; font-size: 88%;}
+span.pagenum.rightcol {left: 95%;}
+
+span.pagenum.notes {font-size: 83%; font-style: italic;
+line-height: 1.3em;}
+span.pagenum.notes:after {font-size: 75%; content: "N";}
+
+div.variae span.pagenum {font-size: 83%; line-height: 1.5em;}
+div.variae span.pagenum:after {font-size: 75%; content: " VL";}
+
+div.index p span.pagenum {font-size: 95%;} /* 95% of 90% = 88% */
+
+/* Transcriber's Note */
+
+p.mynote, div.mynote {background-color: #DDE; color: #000;
+margin: 1em 5%; font-family: sans-serif; font-size: 90%;}
+div.mynote {padding: .5em 1em 1em;}
+p.mynote {padding: 1em;}
+
+div.endnote {font-family: sans-serif; font-size: 90%;
+padding: 0 1em 1em; border: 3px ridge #99C;}
