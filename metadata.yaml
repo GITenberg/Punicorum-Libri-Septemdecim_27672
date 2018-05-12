@@ -1,0 +1,38 @@
+_repo: Punicorum-Libri-Septemdecim_27672
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Silius Italicus, Tiberius Catius
+    gutenberg_agent_id: '32550'
+    url: http://www.gutenberg.org/2009/agents/32550
+  editors:
+  - agent_name: Lemaire, N. E. (Nicolas Eloi)
+    aliases:
+    - Lemaire, Nicolaus Eligius
+    - Lemaire, Nicolas Eloi
+    birthdate: 1767
+    deathdate: 1832
+    gutenberg_agent_id: '32551'
+    url: http://www.gutenberg.org/2009/agents/32551
+  - agent_name: Ruperti, Georg Alexander
+    birthdate: 1758
+    deathdate: 1839
+    gutenberg_agent_id: '32836'
+    url: http://www.gutenberg.org/2009/agents/32836
+description: ''
+gutenberg_issued: '2008-12-31'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '27672'
+language: la
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Punic War, 2nd, 218-201 B.C. -- Poetry'
+- !lcc 'PA'
+title: Punicorum Libri Septemdecim
+url: http://www.gutenberg.org/ebooks/27672
